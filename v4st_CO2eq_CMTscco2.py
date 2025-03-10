@@ -74,7 +74,7 @@ def plot_scco2_CO2eq_barchart():
     weight_counts = {
         "Electricity": np.array([CE_elecs+CE_elecp,0]),
         "Nozzle CO2": np.array([CE_c,0]),
-        "Embedded tool CE": np.array([CE_tool,0]),
+        "Tools": np.array([CE_tool,0]),
     }
     width = 0.2
 
