@@ -74,7 +74,7 @@ def plot_scco2_financial_barchart():
     }
     width = 0.2
 
-    fig, ax = plt.subplots(figsize=(4,5))
+    fig, ax = plt.subplots(figsize=(3,3))
     bottom = np.zeros(2)
 
     for boolean, weight_count in weight_counts.items():
