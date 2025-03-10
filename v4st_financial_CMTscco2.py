@@ -69,8 +69,8 @@ def plot_scco2_financial_barchart():
     weight_counts = {
         "Electricity": np.array([cost_elecs+cost_elecp,0]),
         "Nozzle CO2": np.array([cost_c,0]),
-        "MQL": np.array([cost_mql,0]),
         "Tools": np.array([cost_tool,0]),
+         "MQL": np.array([cost_mql,0]),
     }
     width = 0.2
 
