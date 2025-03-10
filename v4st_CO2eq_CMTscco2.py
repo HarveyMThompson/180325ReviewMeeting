@@ -78,7 +78,7 @@ def plot_scco2_CO2eq_barchart():
     }
     width = 0.2
 
-    fig, ax = plt.subplots(figsize=(3,3))
+    fig, ax = plt.subplots(figsize=(2.3,2.3))
     bottom = np.zeros(2)
 
     for boolean, weight_count in weight_counts.items():
